@@ -25,7 +25,7 @@ namespace ProvaHumberto2Bimestre.ViewModels
         public string Estado { get; set; }
 
         [Required(ErrorMessage = "Idade Obrigatoria.")]
-        [Range(0, 14)]
+        [Range(0, 15)]
         public int Idade { get; set; }
 
         [MinLength(1, ErrorMessage = "Minimo 1 Caracteres.")]
